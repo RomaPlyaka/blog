@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="stylesheet" href="src/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <main id='main'>
+        <header id='header'>
+            <div class="header_left_side">
+                <img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/4/49/ZeroNet_vector_logo.svg"
+                    alt="Logo">
+                <ul class="menu">
+                    <li><a href="#">Кабинет</a></li>
+                    <li><a href="#">Статьи</a></li>
+                </ul>
+            </div>
+            <div class="sign">
+                <span class="auth" id='btn_sign_in'>Sign In</span>
+                <span class="auth" id='btn_sign_up'>Sign Up</span>
+            </div>
+        </header>
+        <div id="signUpPopup">
+            <div class="modal">
+                <input id='signUplogin' type="login" placeholder="Enter your login">
+                <input id='signUpEmail' type="email" placeholder="Enter email">
+                <input id='signUpPassword' type="password" placeholder="Enter password">
+                <input id='signUpName' type="text" placeholder="Enter Name">
+                <input id='signUpSurname' type="text" placeholder="Enter Surname">
+                <button id='signUpSend'> Отправить </button>
+            </div>
+        </div>
+        <div id="signInPopup">
+            <div class="modal">
+                <input id='signInEmail' type="text" placeholder="Enter your login or Email">
+                <input id='signInPassword' type="password" placeholder="Enter password">
+                <button id='signInSend'> Отправить </button>
+            </div>
+        </div>
+        <div class="images">
+            <input id ='addavatar' type="file" name="image" id="addimg">
+        </div>
+        <img id="img" src="" alt="" style="height: 300px; width: 300px;">
+    </main>
+    <script src="index.js"></script>
+    <script src="addimg.js"></script>
+    <script src="signuppopup.js"></script>
+    <script src="signIn.js"></script>
+</body>
+
+</html>

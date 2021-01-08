@@ -1,0 +1,38 @@
+{
+  "users": [
+    {
+      "login": "roma",
+      "email": "roma",
+      "password": "roma",
+      "name": "",
+      "surname": "",
+      "id": 1
+    },
+    {
+      "login": "roman",
+      "email": "roman",
+      "password": "roman",
+      "name": "",
+      "surname": "",
+      "id": 2
+    },
+    {
+      "login": "romana",
+      "email": "romana",
+      "password": "romana",
+      "name": "",
+      "surname": "",
+      "id": 3
+    },
+    {
+      "login": "Plyaka",
+      "email": "Plyaka1994@gmail.com",
+      "password": "THEbigbang1994",
+      "name": "Plyaka Roman",
+      "surname": "",
+      "id": 4
+    }
+  ],
+  "posts": {},
+  "comments": {}
+}
